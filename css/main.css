@@ -792,7 +792,6 @@ footer{
 
 footer .copyrights{
 	float: left;
-	margin-bottom: 80px;
 }
 
 footer .copyrights p{
@@ -805,6 +804,7 @@ footer .copyrights p{
 footer .contact_details{
 	max-width: 430px;
 	float: right;
+	color: #fff;
 } 
 
 footer .social{
