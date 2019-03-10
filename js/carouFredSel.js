@@ -3137,9 +3137,7 @@
 		}
 		if (!is_number(obj.timeoutDuration))
 		{
-			obj.timeoutDuration = (obj.duration < 10)
-				? 2500
-				: obj.duration * 5;
+			obj.timeoutDuration = 10000;
 		}
 		if (obj.progress)
 		{

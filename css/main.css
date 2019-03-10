@@ -566,11 +566,12 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 .testimonials{
 	width: 100%;
 	background: #ffffff;
-	padding: 140px 0;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .testimonials .tesimonial{
-	max-width: 670px;
+	max-width: 100%;
 	height: auto;
 	margin: 0 auto;
 	padding: 0 20px;
@@ -578,8 +579,13 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 	float: left;
 } 
 
+.tesimonial img{
+	width: 98px;
+	height: 115px;
+}
+
 .slider_container{
-	max-width: 670px;
+	max-width: 100%;
 	margin: 0 auto;
 	height: auto;
 }
@@ -969,6 +975,19 @@ footer p{
 	height:100%;
 	width:100%;
 	position:absolute;
+}
+
+.intervenants{
+	text-align: center;
+	color: #4C5B5C;
+	font-family: "raleway-regular", Helvetica, Arial, sans-serif;
+	margin-top: 20px;
+	text-decoration: underline;
+	text-decoration-color: #FCE64C;
+	font-size: 30px;
+	font-family: "raleway-bold", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
 
